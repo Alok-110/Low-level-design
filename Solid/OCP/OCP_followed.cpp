@@ -66,7 +66,6 @@ public:
     void save(ShoppingCart cart) override{
         cout << "Saving cart to Mongo" << endl;
     }
-
 };
 
 class SQLPersistence : public Persistence{
